@@ -1,14 +1,7 @@
-<div align="center">
-  <h1>Rounded Window Corners</h1>
-  <p><i>A gnome-shell extensions that try to add rounded corners for all windows</i></p>
-  <a href="https://extensions.gnome.org/extension/5237/rounded-window-corners/">
-    <img src="https://img.shields.io/badge/Install%20from-extensions.gnome.org-4A86CF?style=for-the-badge&logo=Gnome&logoColor=white"/>
-  </a>  
-</div>
-
+# Rounded Window Corners
 ## Features
 
-- Works with Gnome 40+
+- Works with Gnome 40+ (46 latest)
 - Custom border radius and clip paddings for windows
 - Black list for applications which draw window decoration itself
 - Custom shadow for rounded corners windows
@@ -47,7 +40,7 @@ It will install extensions to `~/.local/share/gnome-shell/extensions`,
 need to install `yarn`, Node.js and `gettext`
 
 ```bash
-git clone https://github.com/yilozt/rounded-window-corners
+git clone https://github.com/XenFour/rounded-window-corners
 cd rounded-window-corners
 yarn install && yarn ext:install
 ```
@@ -75,7 +68,7 @@ extensions.
 [![pack-padge][11]][9]
 
 ```bash
-gnome-extensions install rounded-window-corners@yilozt.shell-extension.zip
+gnome-extensions install rounded-window-corners@citri.one.zip
 ```
 
 ## Translations
